@@ -1,0 +1,70 @@
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  padding: 24px;
+  width: 408px;
+  height: auto;
+  background: #fff;
+}
+
+.feedback-form > button {
+  box-sizing: border-box;
+  margin: 0;
+  margin-top: 16px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 95px;
+  height: 40px;
+  background: #4e75ff;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.feedback-form > button:hover {
+  background-color: #6c8cff;
+}
+.feedback-form > label {
+  width: 360px;
+  height: auto;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+.feedback-form > label:not(:last-child) {
+  margin-bottom: 8px;
+}
+.feedback-form > label > input {
+  outline: none;
+  padding: 8px 16px;
+  width: 360px;
+  height: 40px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  margin-top: 8px;
+}
+.feedback-form > label > input:hover,
+.feedback-form > label > textarea:hover {
+  border: 1px solid #000;
+}
+.feedback-form > label > input:active,
+.feedback-form > label > textarea:active {
+  border: 1px solid #808080;
+}
+
+.feedback-form > label > textarea {
+  outline: none;
+  padding: 8px 16px;
+  width: 360px;
+  height: 80px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  margin-top: 8px;
+}
